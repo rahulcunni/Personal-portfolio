@@ -7,6 +7,8 @@ function locomotiveAnimation() {
   const locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
     smooth: true,
+    smartphone: { smooth: true },
+    tablet: { smooth: true },
     smoothMobile: true, 
     lerp: 0.08, 
   });
@@ -37,7 +39,6 @@ function locomotiveAnimation() {
 }
 
 locomotiveAnimation();
-
 
 //////---- NAVBAR - ANIMATION ---///////////
 
@@ -1081,3 +1082,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
