@@ -2946,7 +2946,7 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 }
 
 @media (max-width: 480px){
-   
+ 
 /*--------------------------------  HOME ------------------------------------*/
     
 .home .top-section-container .main-title .word{
@@ -2954,7 +2954,7 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
     }
 
 #home .top-section-container {
-    height: 60vh;
+    height: 320px;
     overflow: hidden;}
 
 
@@ -2968,7 +2968,7 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 }
 
 .home .top-section-container .main-title{
-    height: 39vh;
+    height: 190px;
     overflow: hidden;
 }
 
@@ -3011,7 +3011,7 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 }
 
 .about-content{
-    height: 60vh;
+    height: 310px;
     width: 70%;
     padding: 0vw 0vw 0vw 2vw; /* top right    bottom left */
     color: inherit;
@@ -3125,8 +3125,8 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 }
 
 #gallery .image-container{
-    height: 140px;
-    width: 120px;
+    height: 320px;
+    width: 300px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -3144,7 +3144,6 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 
 #works .block-conatiner{
     position: relative;
-    height: 100vh;
     margin-top: -90px;
 
 }
@@ -3153,7 +3152,7 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
   position: absolute;
   top: 0;
   width: 100%;
-  height: 50vh;
+  height: 200px;
   box-shadow: 0px -20px 12px 0px #000000a2;
   overflow-x: hidden;
   background-color:  rgba(239, 239, 239, 1);
@@ -3182,7 +3181,7 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 
 #projects .projects-text ion-icon{ font-size: 1rem; }
 
-.projects-container{ padding: 0vw 2vw 0vw 2vw; /* top right bottom left */ }
+.projects-container{ padding: 0vw 3vw 0vw 3vw; /* top right bottom left */ }
 
 
 .projects .projects-section{ padding: 0vw 0vw 0vw 0vw; }
@@ -3215,7 +3214,6 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
  #projects .projects-section .pr-txt-top , .pr-txt-bottom {
     font-size: 0.8rem;
 }
-
 
 /*--------------------------------  STAGES - OF - WORK ------------------------------------*/
 
@@ -4576,6 +4574,7 @@ circle{
     color: rgb(14, 14, 14);
     border: 1px solid rgb(27, 27, 27);
 }
+
 
 
 
