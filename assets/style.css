@@ -2957,6 +2957,11 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
     height: 320px;
     overflow: hidden;}
 
+   
+* {
+    outline: 1px solid red; /* Debug mode */
+}
+
 
 #home .scroller{
     margin-left: 0px;
@@ -4563,6 +4568,7 @@ circle{
     color: rgb(14, 14, 14);
     border: 1px solid rgb(27, 27, 27);
 }
+
 
 
 
