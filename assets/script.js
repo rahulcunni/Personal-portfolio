@@ -40,6 +40,7 @@ function locomotiveAnimation() {
 
 locomotiveAnimation();
 
+
 //////---- NAVBAR - ANIMATION ---///////////
 
 
@@ -920,10 +921,9 @@ splitToLetters(".btm-ttl");
 
 let tl = gsap.timeline({
   scrollTrigger: {
-    trigger: ".bottom-title",
+    trigger: ".footer-bottom-section",
     scroller: "#main",
-    start: "top 80%",
-    end: "bottom 40%",
+    start: "top 95%",
     toggleActions: "play reverse play reverse"
   }
 });
@@ -1082,5 +1082,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
 
 
