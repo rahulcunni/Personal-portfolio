@@ -156,11 +156,11 @@ gsap.to(".resume-btn", {
   opacity: 1,  
   y: 0,                   
   duration: 1,  
-  delay: 1.2,           
-  ease: "power2.out",      
+  delay: 1.3,           
+  ease: "power3.out",      
   scrollTrigger: {
-    trigger: ".about-content",
-    start: "top 10%",
+    trigger: ".about-content-btn",
+    start: "top 95%",
     scroller: "#main",                
     toggleActions: "play none none reverse", 
   }
@@ -1082,4 +1082,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
 
