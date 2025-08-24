@@ -3178,11 +3178,10 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 #works .block-conatiner{
     position: relative;
     margin-top: -90px;
-
 }
 
 .white-block{
-  height: 200px;
+  height: 150px;
 }
 
 /*--------------------------------  PROJECTS ------------------------------------*/
@@ -4608,6 +4607,7 @@ circle{
     color: rgb(14, 14, 14);
     border: 1px solid rgb(27, 27, 27);
 }
+
 
 
 
