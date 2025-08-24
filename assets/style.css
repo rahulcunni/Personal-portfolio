@@ -2946,29 +2946,14 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 }
 
 @media (max-width: 480px){
-
-    body{
-    background-color: rgba(239, 239, 239, 1);
-    color: rgba(0, 0, 0, 1);
-    font-size: 20px;
-    line-height: 1.75;
-    height: 100%;
-    font-family:var(--font-family-poppins);
-}
-
-#main{
-    min-height: 100%;
-    overflow-y: hidden;
-}
-
-
+   
 /*--------------------------------  HOME ------------------------------------*/
     
 .home .top-section-container .main-title .word{
-     font-size: 9.4rem; 
+     font-size: 9.2rem; 
     }
 
-.home .top-section-container {
+#home .top-section-container {
     height: 60vh;
     overflow: hidden;}
 
@@ -2978,8 +2963,8 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 }
 
 .home .top-section-container .description{
-    margin-top: 18vw;
     font-size: 0.9rem;
+    width: 70%;
 }
 
 .home .top-section-container .main-title{
@@ -2989,10 +2974,6 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 
 .home .main-title .word:last-child{
     font-size:5rem;
-}
-
-.home .bottom-section{
-    margin-top: -2vw;
 }
 
 .home .scroller{
@@ -3025,7 +3006,7 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 }
 
 .video-holder{
-    height: 60vh;
+    height: 310px;
     border-radius: 8px;
 }
 
@@ -3080,7 +3061,7 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 }
 
 .resume-btn svg{
-    margin-left: 10px;
+    margin-left: 3px;
     height: 10px;
 }
 
@@ -3106,7 +3087,7 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 }
 
 .work-header-text{
-    padding-top: 15px;
+    padding-top: 0px;
 }
 
 .work-header-text h2{
@@ -4595,6 +4576,7 @@ circle{
     color: rgb(14, 14, 14);
     border: 1px solid rgb(27, 27, 27);
 }
+
 
 
 
