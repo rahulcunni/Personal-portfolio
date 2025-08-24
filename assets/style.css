@@ -3119,7 +3119,7 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 }
 
 .gallery{
-    margin-top: 22vw;
+    margin-top: 120px;
 }
 
 .images{
@@ -3150,7 +3150,11 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 #works .block-conatiner{
     position: relative;
     margin-top: -90px;
-
+    height: 520px;
+}
+   
+.white-block{
+  height: 200px;
 }
 
 /*--------------------------------  PROJECTS ------------------------------------*/
@@ -4568,6 +4572,7 @@ circle{
     color: rgb(14, 14, 14);
     border: 1px solid rgb(27, 27, 27);
 }
+
 
 
 
