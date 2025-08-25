@@ -3132,63 +3132,18 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
     border: 8px solid rgb(14, 13, 13);
 }
 
-.image-container:nth-child(1) { 
-    transform: rotate(-8deg) 
-    translateY(0px); 
-}
-
-.image-container:nth-child(2) { 
-    transform: rotate(8deg) 
-    translateY(20px); 
-    position: relative;
-    z-index: 1;
-    /*margin-left: -40px;*/
-}
-
-.image-container:nth-child(3) { 
-    transform: translateY(-40px); 
-    position: relative;
-    z-index: 3;
-   /* margin-left: -10px;*/
-}
-
-.image-container:nth-child(4) { 
-    transform: translateY(40px); 
-    position: relative;
-    z-index: -1;
-    /*margin-left: -40px;*/
-}
-
-.image-container:nth-child(5) { 
-    transform: rotate(10deg) 
-    translateY(0px); 
-    position: relative;
-    z-index: 4;
-   /* margin-left: -100px;*/
-}
-
-.image-container:nth-child(6) { 
-    transform: rotate(-10deg) 
-    translateY(-40px) 
-    translateX(40px);
-    position: relative;
-    z-index: -1;
-    /*margin-left: -100px;*/
-}
-
 #works .block-conatiner{
     position: relative;
     margin-top: -90px;
 }
 
 .white-block{
-  height: 120px;
+  height: 200px;
 }
 
 /*--------------------------------  PROJECTS ------------------------------------*/
 
-#projects{ margin-top: 0px; 
-         padding-top:20px; }
+#projects{ margin-top: -920px; }
 
 .projects-section{
   margin-top:  20px;
@@ -4609,6 +4564,7 @@ circle{
     color: rgb(14, 14, 14);
     border: 1px solid rgb(27, 27, 27);
 }
+
 
 
 
