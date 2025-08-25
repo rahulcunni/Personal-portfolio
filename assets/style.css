@@ -3203,9 +3203,9 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 
 /*--------------------------------  STAGES - OF - WORK ------------------------------------*/
 
-.work-process{ margin-top: 8vw; }
+.work-process{ margin-top: 40px; }
 
-.work-process .process-title{ width: 100%; }
+.work-process .process-title{ height: 65px; width: 100%; }
 
 .work-process .process-title .letter{ font-size: 3rem; }
 
@@ -4564,6 +4564,7 @@ circle{
     color: rgb(14, 14, 14);
     border: 1px solid rgb(27, 27, 27);
 }
+
 
 
 
