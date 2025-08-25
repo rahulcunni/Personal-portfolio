@@ -3143,7 +3143,7 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 
 /*--------------------------------  PROJECTS ------------------------------------*/
 
-#projects{ margin-top: -920px; }
+#projects{ margin-top: -880px; }
 
 .projects-section{
   margin-top:  20px;
@@ -4564,6 +4564,7 @@ circle{
     color: rgb(14, 14, 14);
     border: 1px solid rgb(27, 27, 27);
 }
+
 
 
 
