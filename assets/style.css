@@ -2944,6 +2944,7 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 }
 
 }
+
 @media (max-width: 480px){
 
 
@@ -3181,12 +3182,13 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 }
 
 .white-block{
-  height: 150px;
+  height: 120px;
 }
 
 /*--------------------------------  PROJECTS ------------------------------------*/
 
-#projects{ margin-top: -460px; }
+#projects{ margin-top: 0px; 
+         padding-top:20px; }
 
 .projects-section{
   margin-top:  20px;
@@ -4607,6 +4609,7 @@ circle{
     color: rgb(14, 14, 14);
     border: 1px solid rgb(27, 27, 27);
 }
+
 
 
 
