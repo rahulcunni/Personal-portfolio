@@ -3428,6 +3428,16 @@ padding: 3vw 0px 3vw 0vw; /* top right bottom left */
 
 }
 
+@media (min-width:1200px){
+
+.top-section-container .main-title .word:last-child{
+    padding-top: 3rem;
+}
+
+#projects{ margin-top: -480px; }
+ 
+}
+
 /*--------------------------------  ./RESUME ------------------------------------*/
 
 
@@ -4566,6 +4576,7 @@ circle{
     color: rgb(14, 14, 14);
     border: 1px solid rgb(27, 27, 27);
 }
+
 
 
 
