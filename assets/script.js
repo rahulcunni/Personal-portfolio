@@ -7,7 +7,7 @@ function locomotiveAnimation() {
   const locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
     smooth: true,
-    smartphone: { smooth: true },
+    smartphone: { smooth: false },
     tablet: { smooth: true },
     smoothMobile: true, 
     lerp: 0.08, 
@@ -1082,6 +1082,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
 
 
 
